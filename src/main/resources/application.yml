@@ -1,0 +1,11 @@
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+    hibernate: DEBUG
+
+  path: ./logs
+
+generator:
+  runfrequencymillis: 10
