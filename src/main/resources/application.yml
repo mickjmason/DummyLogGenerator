@@ -5,7 +5,7 @@ logging:
         security: DEBUG
     hibernate: DEBUG
 
-  path: ./logs
+  file: /var/log/dummylog.log
 
 generator:
   runfrequencymillis: 10
